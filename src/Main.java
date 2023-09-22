@@ -11,5 +11,14 @@ public class Main {
         System.out.println(Queue.peek());
         System.out.println(Stack.isEmpty());
         System.out.println(Queue.size());
+        int[] empty = {};
+        Stack emptyStack = new Stack(empty);
+        Queue emptyQueue = new Queue(empty);
+        System.out.println("Empty array outputs");
+        System.out.println(emptyStack.size());
+        System.out.println(emptyQueue.size());
+        System.out.println(emptyStack.peek());
+        System.out.println(emptyQueue.peek());
+
     }
 }
