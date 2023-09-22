@@ -34,9 +34,13 @@ Implement a stack and queue class using an array of integer values.
 ## Reflection Questions
 
 - What is the fundamental principle behind a stack?
+- A stack is an array-like data type that has the logic of First In, Last Out (Or alternatively, last in first out) 
 - In what situations would using a stack be beneficial?
+- If you are planning for the most difficult thing to go last, you can add that first and then add the rest of the easier things on top of it
 - What is the fundamental principle behind a queue?
+- It has the opposite logic of a stack, which is of First In, First Out (Or last in last out)
 - In what situations would using a queue be beneficial?
+- If a bunch of customers are trying to buy from a website, put them in a queue so the first customer in the site is the first one to be processed
 
 ## Rubric
 
